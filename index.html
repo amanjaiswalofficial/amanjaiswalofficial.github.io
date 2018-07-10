@@ -148,6 +148,10 @@
 				{
 					window.location.replace('./data/gender_detect.html')
 				}
+				else if (slides[3].style.display == "block") {
+
+					window.location.replace('./data/face_deform.html')
+				}
 			}
 		}
 
@@ -181,22 +185,22 @@
 							<li>
 								<a href="#">Options</a>
 								<ul>
-									<li><a href="emo_detect.html">Emotion Detector</a></li>
-									<li><a href="simple_video.html">Face Detection</a></li>
-									<!--<li><a href="no-sidebar.html">No Sidebar</a></li>-->
-									<!--<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option 1</a></li>
-											<li><a href="#">Option 2</a></li>
-											<li><a href="#">Option 3</a></li>
-											<li><a href="#">Option 4</a></li>
-										</ul>
-									</li>-->
+									<li>
+										<a href="./data/simple_video.html">Face Recognition</a>
+									</li>
+									<li>
+										<a href="./data/gender_detect.html">Gender Detection</a>
+									</li>
+									<li>
+										<a href="./data/emo_detect.html">Emotion Detection</a>
+									</li>
+									<li>
+										<a href="./data/face_deform.html">Face Deformation</a>
+									</li>
+									
 								</ul>
 							</li>
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#" class="button primary">Github Link</a></li>
+							<li><a href="http://www.github.com/amanjaiswalofficial/Facified" class="button primary">Github Link</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -204,26 +208,34 @@
 			
 			<!-- One -->
 				<section>
+					
 					<!-- Slideshow container -->
 					<div class="slideshow-container" style="position: relative;margin-top:100px">
 						<!-- Full-width images with number and caption text -->
+						<div class="content" style="text-align:center"><h2>FACIFIED:  'Playing with faces'</h2></div>
 						<div class='images-display' style="width:1000px;height:90%">
 							<div class="mySlides fade">
-							<div class="numbertext">1 / 3</div>
+							
 							<img src="./data/media/img1.jpg" style="width:100%">
 							<div class="text">Caption Text</div>
 							</div>
 						
 							<div class="mySlides fade">
-							<div class="numbertext">2 / 3</div>
+							
 							<img src="./data/media/img2.jpg" style="width:100%">
 							<div class="text">Caption Two</div>
 							</div>
 					
 							<div class="mySlides fade">
-							<div class="numbertext">3 / 3</div>
+							
 							<img src="./data/media/img3.jpg" style="width:100%">
 							<div class="text">Caption Three</div>
+							</div>
+
+							<div class="mySlides fade">
+								
+								<img src="./data/media/img4.jpg" style="width:100%">
+								<div class="text">Caption Text</div>
 							</div>
 						</div>
 						<input id='webcam' type="button" class="buttonss" value="Try It Yourself" onclick="forward(this.id)" style="top:85%;left:40%;">
@@ -238,6 +250,7 @@
 						<span class="dot" onclick="currentSlide(1)"></span>
 						<span class="dot" onclick="currentSlide(2)"></span>
 						<span class="dot" onclick="currentSlide(3)"></span>
+						<span class="dot" onclick="currentSlide(4)"></span>
 					</div>
 					<a href="#banner" class="goto-next scrolly" style="position: relative;">Next</a>
 				</section>
@@ -250,7 +263,7 @@
 					<header>
 						<h2>The future has landed</h2>
 						<p>And there are no hoverboards or flying cars.
-							<br /> Just apps. Lots of mother flipping apps.</p>
+							<br /> Just apps. Lots and lots of apps.</p>
 					</header>
 					<span class="image">
 						<img src="./data/images/pic01.jpg" alt="" />
@@ -265,10 +278,10 @@
 					<ul class="icons">
 						<li><a href="https://www.twitter.com/awesomeamanj" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="https://www.facebook.com/awesomeamanj" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://www.linkedin.com/in/amanjaiswalofficial/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/awesomeamanj" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.github.com/amanjaiswalofficial" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Untitled. All rights reserved.</li>
