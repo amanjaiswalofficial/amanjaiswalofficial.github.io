@@ -1,0 +1,19 @@
+:root {
+  --ease-page: cubic-bezier(.77, 0, .18, 1);    /* button/key/wheel page change */
+  --ease-reveal: cubic-bezier(.16, 1, .3, 1);   /* masked heading lines */
+  --ease-hover: cubic-bezier(.2, .8, .2, 1);    /* row indent */
+  --ease-settle: cubic-bezier(.25, 1, .5, 1);   /* after drag release (easeOutQuart) */
+
+  --dur-page: 900ms;          /* + 120ms per extra page skipped, max +360 */
+  --dur-settle: 650ms;
+  --dur-reveal-line: 1200ms;  /* stagger 90ms */
+  --dur-reveal-item: 900ms;   /* stagger 45ms, easeOutExpo, rise 18px */
+  --dur-hover: 350ms;
+  --dur-ink: 400ms;
+
+  --parallax: .3;             /* heading travels 30% faster than its page */
+  --rubber-band: .3;
+  --swipe-velocity: .35;      /* px/ms */
+  --swipe-distance: .2;       /* of viewport width */
+  --axis-lock: 8px;
+}

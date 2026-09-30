@@ -1,0 +1,25 @@
+:root {
+  --gutter: clamp(20px, 5vw, 56px);  /* page side padding; also grid margin */
+  --pad-top: 64px;                   /* clears masthead */
+  --pad-bottom: 80px;                /* clears footer controls */
+  --col-max: 620px;                  /* content column; capped to 50vw on ≥860px */
+  --grid-cols: 4;
+  --breakpoint-split: 860px;         /* ≥ this: text left, object right */
+
+  --space-1: 4px;
+  --space-2: 5px;    /* progress segment gap */
+  --space-3: 8px;
+  --space-4: 10px;   /* hover indent */
+  --space-5: 12px;   /* grid column-gap inside rows */
+  --space-6: 16px;   /* stack gap (list pages) */
+  --space-7: 18px;   /* stack gap (index) / CTA inner padding */
+  --space-8: 20px;   /* stack gap (statement page) */
+
+  --row-h: clamp(44px, 8vh, 54px);   /* link rows */
+  --row-pad-list: clamp(9px, 1.6vh, 13px);
+  --row-pad-repo: clamp(8px, 1.5vh, 12px);
+  --cta-h: 56px;
+  --hit: 44px;
+  --hairline: 1px;
+  --radius: 0;
+}

@@ -1,0 +1,31 @@
+:root {
+  /* Panel grounds — one flat colour per page, never mixed on one page */
+  --paper: #ECE9E2;
+  --signal: #EA3F2B;
+  --carbon: #101010;
+  --cobalt: #1D3BD1;
+  --citron: #F1C21B;
+
+  /* Inks */
+  --ink: #111111;
+  --ink-inverse: #ECE9E2;
+  --ink-on-cobalt: #F4F2EC;
+  --rule-on-carbon: #4A4843;
+  --muted-on-carbon: #A9A59C;
+
+  /* Opacity roles (applied to currentColor) */
+  --grid-opacity: .09;
+  --track-opacity: .22;
+
+  /* Panel themes: ground / ink / particle colour */
+  --panel-1-bg: var(--paper);  --panel-1-ink: var(--ink);          --panel-1-dot: var(--signal);
+  --panel-2-bg: var(--signal); --panel-2-ink: var(--ink);          --panel-2-dot: var(--ink);
+  --panel-3-bg: var(--carbon); --panel-3-ink: var(--ink-inverse);  --panel-3-dot: var(--signal);
+  --panel-4-bg: var(--cobalt); --panel-4-ink: var(--ink-on-cobalt); --panel-4-dot: var(--ink-on-cobalt);
+  --panel-5-bg: var(--citron); --panel-5-ink: var(--ink);          --panel-5-dot: var(--ink);
+
+  /* Semantic aliases */
+  --surface-page: var(--paper);
+  --text-primary: var(--ink);
+  --rule: currentColor;
+}
