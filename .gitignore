@@ -1,0 +1,8 @@
+# Local-only notes (not published)
+LOCAL_HOW_TO.md
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
